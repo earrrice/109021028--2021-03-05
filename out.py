@@ -1,6 +1,7 @@
 import sys
-from x4 import ff
+import ff
 
-x=int(sys.argv[1])
+m=int(sys.argv[1])
 
-print(x4.x1(x))
+print(sys.argv)
+print(ff.fun1(m))

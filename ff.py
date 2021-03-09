@@ -1,1 +1,4 @@
-print("hi")
+import random
+
+def fun1(a):
+    return a**2
