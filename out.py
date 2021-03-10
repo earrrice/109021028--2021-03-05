@@ -1,7 +1,8 @@
 import sys
-import ff
+from library1 import fun1
+
 
 m=int(sys.argv[1])
 
 print(sys.argv)
-print(ff.fun1(m))
+print(fun1(m))
